@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('./fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .post {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.post-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-details {
+    display: flex;
+}
+
+.post-likes, .post-comments {
+    margin-right: 10px;
+}
+
+  
